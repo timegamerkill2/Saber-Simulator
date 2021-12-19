@@ -1,0 +1,6 @@
+_G.off = false
+
+while _G.off do
+game:GetService("ReplicatedStorage").Events.Clicked:FireServer()
+wait()
+end
